@@ -1,0 +1,33 @@
+<resources>
+    <!--    Custom text of elements in form login and register    -->
+    <!--    Start    -->
+    <string name="app_name">DoAnCoSo3</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="btn_signin">Đăng nhập</string>
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_sub_title"><font color="#FFFB531D"><b>Đăng nhập</b></font> Nếu bạn đã có tài khoản</string>
+    <string name="login_email">Email</string>
+    <string name="login_pass">Mật khẩu</string>
+    <string name="text_forgot_pw"><font color="#FFFB531D"><b>Quên mật khẩu?</b></font></string>
+    <string name="sign_up_acc">Nếu bạn chưa có tài khoản? <font color="#FFFB531D"><b>Đăng ký ngay</b></font></string>
+    <string name="register_title">Tạo tài khoản</string>
+    <string name="register_sub_title"><font color="#FFFB531D"><b>Đăng ký</b></font> Nếu bạn chưa có tài khoản</string>
+    <string name="signup_name">Tên của bạn</string>
+    <string name="signup_repass">Nhập lại mật khẩu</string>
+    <string name="signup_email">Email của bạn</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    End    -->
+
+    <!--    Custom text of elements in layout register notify    -->
+    <!--    Start    -->
+    <string name="success_notify_title"><font color="#FFFB531D"><b>Đăng ký tài khoản thành công</b></font></string>
+    <!--    End    -->
+
+    <string name="login_fgpsw_title"><font color="#FFFB531D"><b>Khôi phục mật khẩu</b></font> Nếu bạn đã quên mật khẩu</string>
+
+    <string name="notify_change_acc"><font color="#FFFB531D"><b>Mật khẩu phải thỏa mãn điều kiện sau:</b></font>
+        \n\nCó độ dài từ 6 ký tự trở lên.
+        \n\nVí dụ: Abc123,...
+    </string>
+
+</resources>

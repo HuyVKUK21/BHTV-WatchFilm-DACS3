@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="20dp"
+    android:background="@drawable/layout_register_notify"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:text="@string/success_notify_title" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_marginVertical="15dp"
+        android:text="Quay trở lại, và đăng nhập tài khoản" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnReturnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:text="Đồng ý"
+        android:layout_gravity="center"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/button"/>
+</LinearLayout>

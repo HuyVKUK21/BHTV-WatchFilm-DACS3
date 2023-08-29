@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryColor"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDialogRemoveTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginVertical="10dp"
+        android:text="Đấu phá thương khung" />
+
+    <TextView
+        android:id="@+id/tvDialogQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:text="Xóa khỏi nhật ký tìm kiếm?" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/layout_btn_filter"
+            android:text="Hủy" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDialogRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:layout_marginHorizontal="6dp"
+            android:background="@drawable/button"
+            android:text="Xóa" />
+    </LinearLayout>
+</LinearLayout>

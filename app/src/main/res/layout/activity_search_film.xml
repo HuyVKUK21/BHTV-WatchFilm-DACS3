@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="8dp"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".Activity.SearchFilmActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBackHome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_back_home"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/edtSearchContent"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="100"
+            android:layout_marginHorizontal="12dp"
+            android:paddingHorizontal="12dp"
+            android:ems="10"
+            android:textColor="#fff"
+            android:inputType="textPersonName"
+            android:background="@drawable/layout_border_search"
+            android:hint="Tìm kiếm . . ."
+            android:textColorHint="#CCFFFFFF"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/layout_border_search">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMicroPhone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_mic_search" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSearchHistory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:background="@color/primaryColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/comment_layout_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:visibility="visible">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_comment"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_md_circle" />
+
+                <TextView
+                    android:id="@+id/date_Comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/comment_Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:lineSpacingExtra="0.8dp"
+                android:textColor="@color/white"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/button_Like"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_thumb_up_24" />
+
+                <TextView
+                    android:id="@+id/valueLike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/button_Dislike"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_thumb_down_24" />
+
+                <TextView
+                    android:id="@+id/valueDislike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
